@@ -5,7 +5,7 @@ from flask import Flask
 app = Flask(__name__)
 
 @app.route('/')
-def decorador():
+def entrada():
     return '''
         <!DOCTYPE html>
         <html lang="pt-BR">
@@ -32,7 +32,7 @@ def decorador():
     '''
 
 @app.route('/meucurriculo')
-def decoradorSet():
+def curriculo():
     return '''
         <!DOCTYPE html>
 <html lang="pt-br">
