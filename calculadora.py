@@ -36,7 +36,6 @@ def calcular():
             
         return render_template('calculator.html', etapas=etapas, resultado=resultado)
 
-    # Lógica para as outras operações
     try:
         num1 = float(request.form.get("num1", 0))
         
